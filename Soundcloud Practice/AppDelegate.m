@@ -7,16 +7,22 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SCUI.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
++ (void) initialize {
+    [SCSoundCloud setClientID:@"13f1e66fcec6bc368aef6c6152226098"
+                       secret:@"650cc2ab8974dbfd496086fc0a59b4be"
+                  redirectURL:nil];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
     return YES;
 }
 
@@ -41,5 +47,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
 
 @end
