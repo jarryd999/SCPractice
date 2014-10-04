@@ -27,6 +27,7 @@
 		2B36BBAB19DE0D4000F96FCF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36BBAA19DE0D4000F96FCF /* Security.framework */; };
 		2B36BBAD19DE0D4A00F96FCF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36BBAC19DE0D4A00F96FCF /* QuartzCore.framework */; };
 		2B36BBAF19DE0DCB00F96FCF /* SoundCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B36BBAE19DE0DCB00F96FCF /* SoundCloud.bundle */; };
+		2B63AD7319DF7AE5003D9941 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B63AD7219DF7AE5003D9941 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +172,8 @@
 		2B36BBAA19DE0D4000F96FCF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2B36BBAC19DE0D4A00F96FCF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2B36BBAE19DE0DCB00F96FCF /* SoundCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SoundCloud.bundle; path = CocoaSoundCloudUI/SoundCloud.bundle; sourceTree = "<group>"; };
+		2B63AD7119DF7AE5003D9941 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		2B63AD7219DF7AE5003D9941 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,8 @@
 		2B36BB3D19DE0AB200F96FCF /* Soundcloud Practice */ = {
 			isa = PBXGroup;
 			children = (
+				2B63AD7119DF7AE5003D9941 /* TableViewController.h */,
+				2B63AD7219DF7AE5003D9941 /* TableViewController.m */,
 				2B36BB4219DE0AB200F96FCF /* AppDelegate.h */,
 				2B36BB4319DE0AB200F96FCF /* AppDelegate.m */,
 				2B36BB4519DE0AB200F96FCF /* ViewController.h */,
@@ -524,6 +529,7 @@
 				2B36BB4719DE0AB200F96FCF /* ViewController.m in Sources */,
 				2B36BB4419DE0AB200F96FCF /* AppDelegate.m in Sources */,
 				2B36BB4119DE0AB200F96FCF /* main.m in Sources */,
+				2B63AD7319DF7AE5003D9941 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +765,7 @@
 				2B36BB6019DE0AB300F96FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B36BB6119DE0AB300F96FCF /* Build configuration list for PBXNativeTarget "Soundcloud PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -767,6 +774,7 @@
 				2B36BB6319DE0AB300F96FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
